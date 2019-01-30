@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+    <title>Latest News:</title>
+    <style>
+      body { 
+        font-family: 'News Cycle', sans-serif;
+	      font-size: 18px;
+	      line-height: 34px;
+	      color: #446a9b;
+	      background-image: url("./images/news.png");
+        opacity:.85;
+	      background-repeat: no-repeat;
+	      background-attachment: fixed;
+	      background-position: center;
+	      background-size: cover;
+       }
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+      }
+      #articles {
+        display: inline-block;
+        background-color: rgb(143, 181, 196);
+        border-radius: 25px;
+        opacity: .7;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+        background-color:  rgb(143, 181, 196);
+        border-radius: 25px;
+        opacity: .7;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1><i class="far fa-newspaper"></i>  Latest News</h1>
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
