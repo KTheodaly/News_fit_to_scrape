@@ -27,10 +27,10 @@ Whenever a user visits the site, the app should scrape stories from NYTimes and 
 
      * URL - the url to the original article
 
-#How is it used?
+### How is it used?
 
 Users should be able to leave comments on the articles displayed and revisit them later. The comments should be saved to the database as well and associated with their articles. Users should also be able to delete comments left on articles. All stored comments should be visible to every user.
 
-#Who will use it?
+### Who will use it?
 
 The app is for classwork using MongoDB, Mongoose, and scraping, but anyone is welcome to view and explore the code.
